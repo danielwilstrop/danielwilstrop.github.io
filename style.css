@@ -197,8 +197,53 @@ nav {
     } 
 
     .about {
-        height: 100vh;
-        width: 100vw;
+        width: 90vw;
+        margin: 0 auto;
+        margin-top: 2rem;
+        padding-bottom: 4rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+        grid-row-gap: 2rem;
+        grid-column-gap: 50px; 
+        margin-bottom: 3rem;
+        font-family: 'Newsreader' serif; 
+        color: #406d74;    
+    }
+
+    .icon {
+        color: #FC4445;
+        margin: 1rem;
+    }
+
+    .about-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 3rem;
+    }
+
+    .about-item h2 {
+        font-size: 2.6rem;
+    }
+
+    .text {
+        display: table;
+        position: absolute;
+        vertical-align: center;
+        text-align: center;
+        font-size: 1.3rem;
+    }
+    
+    .area {
+        position: relative;
+        align-content: center;
+        width: 100%;
+        margin: 1rem;
+    }
+
+    .about p{
+       display: table-cell;
     }
   
 
