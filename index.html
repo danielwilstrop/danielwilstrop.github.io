@@ -14,6 +14,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Wilstrop Web Design</title>
 </head>
 <body id = "home">
@@ -25,8 +26,8 @@
         </div>
         <ul class = "nav-links" id = "nav">
             <li><a href = "#home">Home</a></li>
-            <li><a href = "#">Projects</a></li>
-            <li><a href = "#">Contact</a></li>
+            <li><a href = "#projects">Projects</a></li>
+            <li><a href = "#contact">Contact</a></li>
         </ul>
         <div class="burger" id = "burger">
             <div class="line1"></div>
@@ -38,13 +39,13 @@
     <!-- header/intro section -->
     <header class = 'header'>
         <div class = "img-container">
-            <img src = './resources/dan.jpg' alt = 'Photo of daniel wilstrop'>
+            <img src = './resources/dan.jpeg' alt = 'Photo of daniel wilstrop'>
         </div>
         <div class = "text-container" id = "text-container">
             <h1>Daniel Wilstrop</h1>
             <p>Web Design, Web Apps, Web Solutions</p>
         </div>
-        <button class = "btn"><a href = "#projects"></a>See my Work <i class="fas fa-arrow-circle-down"></i></button>
+        <a href = "#projects" class="btn">See my Work <i class="fas fa-arrow-circle-down"></i></a>
     </header>
 
     <!-- About section -->
@@ -124,6 +125,57 @@
     </section>  
     
     <!-- Projects Section -->
+    <section class = "projects" id = "projects">
+        <h1> Websites and Projects </h1>
+        <div class = "bar"></div>
+            <div class="project-grid">
+                <div class = "project-item" data-aos="slide-up" data-aos-duration="800">
+                    <h2> Jamming </h2>
+                    <img src = './resources/dan.jpg'>
+                </div>
+                <div class = "project-item" data-aos="slide-up" data-aos-duration="800">
+                    <h2> Jamming </h2>
+                    <img src = './resources/dan.jpg'>
+                </div>
+                <div class = "project-item" data-aos="slide-up" data-aos-duration="800">
+                    <h2> Jamming </h2>
+                    <img src = './resources/dan.jpg'>
+                </div>
+                <div class = "project-item" data-aos="slide-up" data-aos-duration="800">
+                    <h2> Jamming </h2>
+                    <img src = './resources/dan.jpg'>
+                </div>
+                <div class = "project-item" data-aos="slide-up" data-aos-duration="800">
+                    <h2> Jamming </h2>
+                    <img src = './resources/dan.jpg'>
+                </div>
+                <div class = "project-item" data-aos="slide-up" data-aos-duration="800">
+                    <h2> Jamming </h2>
+                    <img src = './resources/dan.jpg'>
+                </div>
+                <div class = "project-item" data-aos="slide-up" data-aos-duration="800">
+                    <h2> Jamming </h2>
+                    <img src = './resources/dan.jpg'>
+                </div>
+                <div class = "project-item" data-aos="slide-up" data-aos-duration="800">
+                    <h2> Jamming </h2>
+                    <img src = './resources/dan.jpg'>
+                </div>
+            </div>
+    </section>
 
+    <!-- footer -->
+    <footer class = "footer" id = "contact">
+        <h2> Contact </h2>
+        <div class = "bar-contact"></div>
+        <div class="icon-container">
+            <a href = "https://github.com/danielwilstrop" target="blank"><i class="fab fa-github fa-2x icon"></i></a>
+            <a href = "https://www.instagram.com/danwilstrop/" target="blank"><i class="fab fa-instagram fa-2x icon"></i></a>
+            <a href = "mailto:d.wilstrop@hotmail.co.uk?subject=Web Enquiry" target="blank"><i class="far fa-envelope fa-2x icon"></i></a>
+        </div>
+         <p> &copy; Daniel Wilstrop, 2021 </p>
+        
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 </body>
 </html>

@@ -19,7 +19,9 @@ const navSlide = () => {
 
 navSlide()
 
-//
+//aos Library
+
+AOS.init()
 
 
 
