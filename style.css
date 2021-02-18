@@ -160,6 +160,9 @@ nav {
   }
 
   @media screen and (max-width: 768px){
+      .header {
+          background: red;
+      }
     .img-container {
         width:60%;
         height:40%;
