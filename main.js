@@ -3,15 +3,11 @@ const navSlide = () => {
     const burger = document.getElementById('burger')
     const nav = document.getElementById('nav')
     const navLinks = document.querySelectorAll('.nav-links li')
-    const html = document.querySelector("html")
+    const header = document.querySelector("header")
     
     burger.addEventListener('click', () => {
         nav.classList.toggle('nav-active')
-            if (nav.getAttribute("class").indexOf('nav-active') > -1){
-                html.style.overflowY = 'hidden'
-            } else {
-                html.style.overflowY = 'visible'
-            }
+        document.body.classList.toggle('fixed')
         navLinks.forEach( (link, index) => {
             if (link.style.animation) {
                 link.style.animation = ''

@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+.fixed {
+    position: fixed;
+}
+
 /* Nav-Bar */
 nav {
     position: relative;
@@ -79,6 +83,7 @@ nav {
 @media screen and (max-width: 768px){
     body,html {
         overflow-x: hidden;
+        height: auto;
     }
 
     .nav-links {
