@@ -464,6 +464,7 @@ nav {
         background-color: #97CAEF;
         width: 100vw;
         box-shadow: 0 0 15px rgb(143,158,255);
+        margin-bottom: 0;
     }
 
     .bar-contact {
